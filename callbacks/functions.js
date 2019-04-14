@@ -1,14 +1,14 @@
-function birinci(callback){
+function func1(callback){
     console.log("a");
-    callback(ucuncu);
+    callback(func3);
 }
 
-function ikinci(callback){
+function func2(callback){
     console.log("b");
     callback();
 }
-function ucuncu(){
+function func3(){
     console.log("c");
 }
 
-birinci(ikinci);
+birinci(func2);
